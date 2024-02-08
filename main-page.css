@@ -1,0 +1,117 @@
+.colored-box {
+  height: 68.8px;
+  background-color: #3857fb;
+  position: relative;
+  padding-right: 150px; /* Añadido para hacer espacio para los botones */
+}
+
+.colored-box img {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.colored-box button1 {
+  position: absolute;
+  bottom: 10px;
+  left: 150px; /* Cambiado a la derecha */
+  padding: 5px 10px;
+  background-color: #3857fb; /* Se ajusta el color del fondo */
+  color: white; /* Se cambia el color del texto a blanco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.colored-box button2 {
+  position: absolute;
+  bottom: 10px;
+  left: 260px; /* Cambiado a la derecha */
+  padding: 5px 10px;
+  background-color: #3857fb; /* Se ajusta el color del fondo */
+  color: white; /* Se cambia el color del texto a blanco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.colored-box input[type="text"] {
+  position: absolute;
+  bottom: 10px;
+  left: 350px; /* Cambiado a la derecha */
+  width: 890px; /* Ancho ajustado */
+  padding: 5px;
+  border: none;
+  border-radius: 20px; /* Radio de borde mayor para un aspecto más redondeado */
+  font-size: 14px;
+}
+
+.colored-box button3 {
+  position: absolute;
+  bottom: 10px;
+  right: 50px; /* Cambiado a la derecha */
+  padding: 5px 10px;
+  background-color: #3857fb; /* Se ajusta el color del fondo */
+  color: white; /* Se cambia el color del texto a blanco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.colored-box .shop {
+  padding-top: 2%;
+  padding-left: 97%;
+  width: 20px; /* Ancho ajustado */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+}
+
+.colored-box2 {
+  height: 40px;
+  background-color: #1f38bf;
+  position: relative;
+  padding-right: 150px; /* Añadido para hacer espacio para los botones */
+}
+
+.column {
+  float: left;
+  }
+
+  /* Set width length for the left, right and middle columns */
+  .left {
+  width: 30%;
+  height: 1000px;
+  }
+
+  .middle {
+  width: 40%;
+  height: 1000px;
+  }
+  
+  .right {
+  width: 30%;
+  height: 1000px;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  .column.left .wm_logo2 {
+    max-width: 100%;
+    height: auto;
+  }
+
+.footer {
+  height:150px;
+  background-color: #1f38bf;
+  position: relative;
+  padding-right: 150px; /* Añadido para hacer espacio para los botones */
+}
